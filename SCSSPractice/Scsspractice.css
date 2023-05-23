@@ -1,0 +1,49 @@
+.day-theme-button {
+  background-color: black;
+  color: white;
+}
+.day-theme-button:hover {
+  background-color: aqua;
+}
+
+.night-theme-button {
+  background-color: black;
+  color: white;
+}
+.night-theme-button:hover {
+  background-color: aqua;
+}
+
+.test_btn {
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+}
+.test_btn:hover {
+  background-color: white;
+  color: red;
+}
+
+.test_btn2 {
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+}
+.test_btn2:hover {
+  background-color: white;
+  color: blue;
+}
+
+.example, .example_extends {
+  background-color: black;
+  color: white;
+}
+
+.example_extends {
+  font-family: fantasy;
+}
+
+.JJ-input {
+  background-color: rgb(50, 161, 50);
+  color: white;
+}/*# sourceMappingURL=Scsspractice.css.map */

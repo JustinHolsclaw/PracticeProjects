@@ -1,0 +1,70 @@
+$day-background-color: white;
+$day-text-color: black;
+$night-background-color: black;
+$night-text-color: white;
+
+@mixin theme-colors($day-theme: true){
+    @if $day-theme {
+        background-color: $day-background-color;
+        color: $day-text-color;
+
+        &:hover{
+            background-color: burlywood;
+        }
+    }
+    @else{
+        background-color: $night-background-color;
+        color: $night-text-color;
+
+        &:hover{
+            background-color: aqua;
+        }
+    }
+}
+
+@mixin button_style ($background-color, $text-color){
+    border-radius: 5px;
+    background-color: $background-color;
+    color: $text-color;
+
+    &:hover{
+        background-color: $text-color;
+        color: $background-color;
+    }
+}
+
+@mixin input_style($background-Jon-color){
+    background-color: $background-Jon-color;
+    color: white;
+}
+
+.day-theme-button{
+    @include theme-colors(false);
+}
+
+.night-theme-button{
+    @include theme-colors(false);
+}
+
+.test_btn{
+    @include button_style(red, white);
+}
+
+.test_btn2{
+    @include button_style(blue, white)
+}
+
+.example{
+    background-color: black;
+    color: white;
+}
+
+.example_extends{
+    @extend .example;
+    font-family:fantasy;
+}
+
+.JJ-input{
+    @include input_style(rgb(50, 161, 50));
+}
+

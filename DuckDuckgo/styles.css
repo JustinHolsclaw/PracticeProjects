@@ -1,0 +1,54 @@
+.flexbox-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.flexbox-item-1{
+    align-content: center;
+    max-width: 400px;
+}
+
+.flexbox-container-2{
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    background-color: #333333;
+    width: 50vw;
+    height: 2rem;
+}
+
+.search-bar{
+    border: none;
+    background-color: transparent;
+    color: white;
+    height: 100%;
+    width: 100%;
+    font-size: 1.2em;
+}
+
+.fa-search{
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.fa-search:hover{
+    background-color: #474747;
+}
+
+.flexbox-item-3{
+    font-size: large;
+    border: none;
+    background-color: #333333;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: transparent;
+}
+
+.flexbox-item-3:hover{
+    background-color: black;
+}
+
