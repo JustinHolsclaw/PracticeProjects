@@ -3,7 +3,6 @@
 ##click the board
 ##react to click
 ##add to score or explode bomb
-from mine import Player
 
 def addPlayers():
     players = []
