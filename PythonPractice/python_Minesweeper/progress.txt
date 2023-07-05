@@ -1,0 +1,5 @@
+The purpose of this project is to create a working MineSweeper game in python.
+
+Update one, tile objects can be created, however they cannot be added to the game board.
+Update two, Player object can be created and on game start they players are defined and added to the game.
+Update three, 2-d arrays can now be created in the game board class, however tile objects cannot yet be added in to the board.
